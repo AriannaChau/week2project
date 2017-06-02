@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 300;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.lg-img {
+  padding: 30px;
+}
+
+.smImage {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .smImage {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  h4 {
+    text-align: left;
+    width: 100%;
+  }
+}
