@@ -141,6 +141,10 @@ img {
 
   }
 
+  .too-short {
+    padding-top: 18px;
+  }
+
   .shorter {
     padding-top: 38px;
   }
