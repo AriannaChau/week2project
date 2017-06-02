@@ -27,6 +27,13 @@ img {
   padding-top: 10px;
 }
 
+.header {
+  height: 60vh;
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .headerImage {
   position: relative;
 }
@@ -83,6 +90,10 @@ img {
   h4 {
     text-align: left;
     width: 100%;
+  }
+
+  .header {
+    height: 30vh;
   }
 
   .lg-image {
