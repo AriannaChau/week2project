@@ -13,6 +13,18 @@ img {
   width: 100%;
 }
 
+.heading {
+  position: relative;
+}
+
+.slogan {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
 .lg-image {
   padding-bottom: 30px;
 }
@@ -47,6 +59,15 @@ img {
   text-shadow: 2px 2px black;
 }
 
+.one-liner {
+  position: absolute;
+  left: 60%;
+  top: 77%;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding-right: 10px;
+}
+
 .footerImage {
   position: relative;
 }
@@ -62,6 +83,26 @@ img {
 
 .shorter {
   padding-bottom: 10px;
+}
+
+footer {
+  background-color: #edddca;
+  min-height: 300px;
+}
+
+.logofooter {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.footerleft {
+  margin-top: 55px;
+  padding: 0 40px;
+}
+
+.footerright {
+  padding-top: 7%;
+  float: right;
 }
 
 @media screen and (max-width: 1199px) {
@@ -127,6 +168,10 @@ img {
     color: white;
     text-shadow: 2px 2px black;
     transform: translateY(-70%);
+  }
+
+  .footerright {
+    float: none;
   }
 }
 
