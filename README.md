@@ -16,7 +16,7 @@ This project is to proof of concept further for positioning, as well as responsi
 
 ## Link to Site
 
-_{Link coming soon }_
+https://ariannachau.github.io/week2project/
 
 ## Support and contact details
 
